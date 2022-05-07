@@ -7,7 +7,7 @@ on:
     types: [published]
 
 jobs:
-  full-workshop-flow:
+  WorkFlow_till_DockerPush:
     runs-on: ubuntu-latest
     steps:
     - name: checkout tag
