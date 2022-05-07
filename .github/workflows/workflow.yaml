@@ -1,4 +1,4 @@
-name: git workshop
+name: Git Docker Workshop
 on: 
   push: 
     branches:
