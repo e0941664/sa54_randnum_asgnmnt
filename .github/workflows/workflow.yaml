@@ -1,10 +1,8 @@
 name: Git Docker Workshop
 on: 
-  push: 
-    branches:
-    - "master"
-  release:
-    types: [published]
+  push:
+    tags:
+      - "*" 
 
 jobs:
   Full_Workflow:
