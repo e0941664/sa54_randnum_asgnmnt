@@ -28,4 +28,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/randnum-workshop:${{ github.ref_name }}
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/sa54_randnum_asgnmnt:${{ github.ref_name }}
