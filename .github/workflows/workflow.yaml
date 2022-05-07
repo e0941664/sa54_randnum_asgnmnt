@@ -1,10 +1,10 @@
-name: Git Docker Workshop
+name: Git Docker Workshop - Submission
 on:
   release:
     types: [published] 
 
 jobs:
-  Full_Workflow:
+  Submission_WorkFlow:
     runs-on: ubuntu-latest
     steps:
     - name: checkout tag
@@ -32,7 +32,7 @@ jobs:
       with:
         payload: |
           {
-            "text": "SA54 Test Submission",
+            "text": "SA54 Submission",
             "blocks": [
               {
                 "type": "section",
